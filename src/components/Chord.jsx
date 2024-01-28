@@ -3,6 +3,7 @@ import Circle from './Circle';
 
 const Chord = ({chord}) => {
     const [strings, setStrings] = useState('X 3 2 0 1 0');
+    // const [strings, setStrings] = useState('1 X 2 2 1 0');
     // const [strings, setStrings] = useState('3 2 0 0 3 3'); // for G 
     const string_array = strings.split(" ");
     return (
