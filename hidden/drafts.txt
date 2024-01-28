@@ -1,0 +1,7 @@
+/*
+@font-face {
+  font-family: "Light";   
+  src: local("AirbnbCerealLight"),
+    url("./font/AirbnbCerealLight.ttf") format("truetype");
+}
+*/

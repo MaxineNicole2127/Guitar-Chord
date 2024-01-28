@@ -1,0 +1,18 @@
+@import 'variables';
+@import 'chord';
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 2rem 2rem 2rem;
+}
+
+.chord-display {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}

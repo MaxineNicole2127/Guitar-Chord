@@ -1,0 +1,17 @@
+// colors
+$violet: #411a8f;
+
+// fonts
+@font-face {
+    font-family: "Gotham";
+    src: local('GothamMedium'), url('../assets/fonts/GothamMedium.ttf'), format('truetype');
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gotham;
+}
