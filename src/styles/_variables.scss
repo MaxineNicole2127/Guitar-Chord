@@ -1,5 +1,11 @@
 // colors
 $violet: #411a8f;
+$light-bg: #f7fff7;
+$dark-bg: #313638;
+
+//box shadows
+$box-shadow-1: 0px 10px 15px -3px rgba(0,0,0,0.1);
+$box-shadow-2: 0px 5px 17px 9px rgba(0,0,0,0.1);
 
 // fonts
 @font-face {
@@ -14,4 +20,6 @@ $violet: #411a8f;
     padding: 0;
     box-sizing: border-box;
     font-family: Gotham;
+    color: $dark-bg;
+    user-select: none;
 }

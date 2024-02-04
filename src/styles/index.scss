@@ -1,11 +1,14 @@
 @import 'variables';
 @import 'chord';
+@import 'chordOptions';
+
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 4rem 2rem 2rem 2rem;
+    background-color: $light-bg;
 }
 
 .chord-display {

@@ -5,7 +5,7 @@
     tr {
         position: relative;
         td {
-            border: 4px solid black;
+            border: 4px solid $dark-bg;
             width: 7rem;
             height: 2.5rem;
             position: relative;
@@ -13,7 +13,7 @@
 
         .dark-rectangle::after {
             content: '';
-            background-color: black;
+            background-color: $dark-bg;
             height: 100%;
             width: 1rem;
             position: absolute;
@@ -32,7 +32,7 @@
 .circle {
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color: $dark-bg;
     border-radius: 50%;
     position: absolute;
     top: -1rem;

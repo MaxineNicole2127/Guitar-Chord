@@ -1,11 +1,22 @@
 import { useState } from 'react';
 import Circle from './Circle';
+import { useGlobalContext } from '../context';
+import ClipLoader from 'react-spinners/ClipLoader';
 
 const Chord = ({chord}) => {
-    const [strings, setStrings] = useState('X 3 2 0 1 0');
-    // const [strings, setStrings] = useState('1 X 2 2 1 0');
-    // const [strings, setStrings] = useState('3 2 0 0 3 3'); // for G 
+    const {strings, loading} = useGlobalContext();
     const string_array = strings.split(" ");
+
+    if(loading) {
+      return (
+        <ClipLoader
+          color={"black"} 
+          loading = {loading}
+          size = {75}
+        />
+      )
+    }
+
     return (
       <table className="chord">
         <tr> {/* first*/}
